@@ -1,0 +1,18 @@
+.FeaturedNews--newsImage{
+    text-align: center;
+}
+
+.FeaturedNews--newsImage img {
+    object-fit: cover;
+    max-height: 400px;
+}
+
+@media only screen and (min-width: 769px) {
+    .FeaturedNews--newsImage {
+        padding-right: 2rem;
+    }
+
+    .FeaturedNews--newsInfo{
+        padding-left: 2rem;
+    }
+}

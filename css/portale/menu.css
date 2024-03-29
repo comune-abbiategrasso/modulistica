@@ -1,0 +1,125 @@
+.menu, .menu ul {
+  margin: 0;
+  padding: 0;
+}
+.menu li {
+  list-style: none;
+}
+
+.menu li li {
+  margin: 2px 1px 1px 1px;
+}
+.menu li li li{
+  margin: 3px 1px 2px 15px;
+}
+.menu .last {
+  /*margin-bottom: 5px;*/
+}
+.menu a:link,
+.menu a:visited {
+  text-decoration: none;
+  font-weight: normal;
+  display: block;
+  padding-left: 10px;
+}
+.menu a:hover,
+.menu a:active {
+  text-decoration: underline;
+}
+
+.menu-level-1 > li.with-children > a{
+    background-image: url(../../images/menu-on.png);
+    background-repeat: no-repeat;
+    background-position: left 7px;
+    padding-left:10px ;
+}
+
+.menu-level-1 > li.with-children.in-path > a,
+.menu-level-1 > li.with-children.current > a{
+    background-image: url(../../images/menu-off.png);
+    background-repeat: no-repeat;
+    background-position: left 5px;
+    padding-left:10px ;
+}
+.menu-level-1 > li> a{
+    font-size: 110%;
+}
+
+.menu-level-1 a:link,
+.menu-level-1 a:visited {
+padding-top:3px;
+color: #474747;
+}
+.menu-level-1 a:hover,
+.menu-level-1 a:active {
+ font-weight: bold; 
+}
+
+.menu-level-2 a:link,
+.menu-level-2 a:visited {
+font-weight: normal;
+}
+.menu-level-2 a:hover,
+.menu-level-2 a:active {
+ font-weight: bold; 
+  
+}
+
+#leftmenu h2,
+#leftmenu h2 a:link
+{
+  color: #000;
+  font-weight: bold;
+  margin: 0 0 .3em 4px;
+  text-decoration: none;
+}
+#rightmenu h2,
+#rightmenu h2 a:link
+{
+  color: #cc6600;
+  font-weight: bold;
+  margin: 0 0 .3em 4px;
+}
+#leftmenu .menu span,
+#leftmenu .menu .link-level-0 {
+  display: block;
+  color: #000;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 0px 4px 0px 4px;
+  background-color: transparent;
+  color: #000;
+  text-transform: uppercase;
+  border-bottom:solid 4px #016701;
+}
+#rightmenu .menu span,
+#rightmenu .menu .link-level-0 {
+  display: block;
+  color: #000;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 0px 4px 0px 4px;
+  background-color: transparent;
+  color: #000;;
+  font-variant: small-caps;
+  border-bottom:solid 4px #016701;
+}
+
+.menu-level-0 li{
+margin-bottom:25px;
+}
+
+#extra .ui-datepicker {
+    font-size: 12px;
+    width: 15.3em;
+}
+
+.menu li.current {margin-bottom: 10px;}
+.menu li.current > a:link,
+.menu li.current > a:visited{color: #990000;text-decoration: underline;font-weight: bold;}
+
+
+li.separator_din > ul {display: none;}
+li.separator_din.current > ul {display: block;}
+/*li.separator_din.expanded > ul {display: block;}*/
+/*li.separator_din.in-path > ul {display: block;}*/

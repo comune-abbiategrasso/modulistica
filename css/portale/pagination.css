@@ -1,0 +1,25 @@
+.pagination {
+  text-align: center;
+}
+.pagination a {
+  padding: 0 8px;
+  text-decoration: none;
+}
+.pagination span {
+  font-weight: bold;
+  padding: 0 8px;
+}
+
+.pagination .first-page {
+  background: url(../../images/icons/first.gif) top left no-repeat;
+}
+
+.pagination .previous-page {
+  background: url(../../images/icons/previous.gif) top left no-repeat;
+}
+.pagination .next-page {
+  background: url(../../images/icons/next.gif) top left no-repeat;
+}
+.pagination .last-page {
+  background: url(../../images/icons/last.gif) top left no-repeat;
+}

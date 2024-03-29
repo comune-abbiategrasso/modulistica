@@ -1,0 +1,22 @@
+#breadcrumbs {
+  margin: 4px 0;
+}
+#breadcrumbs a {
+  color: #1E4B78;
+  text-decoration: none;
+}
+#breadcrumbs a:hover,
+#breadcrumbs a:active {
+  color: #1E4B78;
+  text-decoration: underline;
+}
+
+#breadcrumbs .current {
+  font-weight: normal;
+  color: #000;
+}
+
+#breadcrumbs img{
+  border:none;
+  margin:0 2px;
+}

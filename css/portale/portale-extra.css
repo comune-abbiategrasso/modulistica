@@ -1,0 +1,82 @@
+body{}
+a.area-link-0 {
+    border-bottom: 6px solid #3366CC;
+}
+
+a.area-link-2 {
+    border-bottom: 6px solid #F7AB27;
+}
+.differenzia_carta_e_cartone:after {
+    content: "C";
+}
+
+.differenzia_carta_e_cartone {
+    background: #EDA361;
+    color:#fff;
+}
+.differenzia_secco_non_riciclabile:after {
+    content: "S";
+}
+
+.differenzia_secco_non_riciclabile {
+    background: #1F2D2D;
+    color:#FFF;
+}
+
+.differenzia_umido_organico:after {
+    content: "U";
+}
+
+.differenzia_umido_organico {
+    background: #673F2C;
+    color:#fff;
+}
+
+.differenzia_vetro:after {
+    content: "V";
+}
+
+.differenzia_vetro {
+    background: #0D6B2E;
+}
+
+.differenzia_plastica_e_lattine:after {
+    content: "P";
+}
+
+.differenzia_plastica_e_lattine {
+    background: #4266A3;
+    color:#FFF;
+}
+
+#lang_select{
+    display: none;
+}
+div#header {
+
+    height: 210px;
+}
+div#navbar {
+    display:none;
+}
+.column.r-space > img{
+    max-width: 120px !important;
+    height: auto !important;
+}
+.footer-center{
+    height:30px;
+    margin-bottom:10px;
+    color:#e0e6eb;
+}
+.footer-center >p{display:none}
+
+
+/*** CUSTOMIZATIONS ***/
+.Hero {
+    height: 350px !important;
+}
+.t-Pac .ArticleContent .ArticleContent-menuColumn .Linklist>li>a {
+    font-size: 2rem!important;
+    padding-top: 1rem!important;
+    padding-bottom: 1rem!important;
+}
